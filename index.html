@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>AOT Quiz App</title>
+</head>
+<body>
+<div class="cage">
+<div class="timer-div">
+  <span class="time-left">Time before the Rumbling:180s</span>
+</div>
+
+  <div class="start-screen">
+    <button id="start-button">Start</button>
+   
+    <h1 class="heading">Coding Quiz Challenge: AOT version</h1>
+    <div class="quiz"></div>
+    <p class="instructions">Try to answer the following 
+        <span class="warning">Attack On Titan</span>
+         related questions within the time limit.<br />
+        Keep in mind every incorrect answer will penalize
+        your Score-time by <span class="warning">15</span>seconds.<br />
+         <span class="warning">*** WARNING</span>: 
+        watch up to season 3 for no spoilers.
+        <span class="warning">***</span><br />
+        <span class="shinzo">Shinzo wo Sasageyo!</span>
+    </p>
+</div>
+
+<div id="display-container">
+    <div class="header">
+        <div class="number-of-count">
+            <span class="number-of-question">questions</span>
+        </div>
+        
+    </div>
+    <div id="container">
+        <!-- questions and options will be displayed here -->
+    </div>
+
+    <div><button id="next-button">Next</button></div>
+
+    <div class="qResCon">
+    <span class="questRes">|||||||||</span>
+    </div>
+    
+</div>
+<div class="score-container hide">
+    <div id="user-score">Demo Score</div>
+    <button id="restart">Restart</button>
+    <button id="clear-button">Clear Record</button>
+  </div>
+
+<div class="record-container hide">
+  <input placeholder="enter name" id="name" />
+    <button id="save-button">Submit</button>
+
+  <button id="restart">Restart</button>
+    <button id="clear-button">Clear Record</button>
+    </div>
+
+<!------------------------------ ADD CONTENT HERE--------- -->
+
+</div>
+
+
+
+
+</div>
+ 
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
